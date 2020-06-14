@@ -55,7 +55,6 @@ def all_winter_holiday_supplies(holiday_hash)
         end
       end
     end
-    puts holiday_supplies
 holiday_supplies
 end
 
@@ -67,6 +66,10 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
+holiday_hash.each do |k,v|
+  puts k
+  
+end
 end
 
 def all_holidays_with_bbq(holiday_hash)
