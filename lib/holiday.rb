@@ -49,7 +49,9 @@ def all_winter_holiday_supplies(holiday_hash)
     holiday_hash.each do |key,value|
       if key==:winter
         value.each do |a,b|
-            holiday_supplies.push(b)
+            b.each do |c|
+            holiday_supplies.push(c)
+            end
         end
       end
     end
