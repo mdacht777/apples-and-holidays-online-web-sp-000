@@ -82,7 +82,7 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
     holiday_supplies=[]
     holiday_hash.each do |key,value|
-      key.each do |a,b|
+      value.each do |a,b|
         puts b        
       end
     end
