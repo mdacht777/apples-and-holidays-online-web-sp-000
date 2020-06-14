@@ -83,8 +83,8 @@ def all_holidays_with_bbq(holiday_hash)
     holiday_supplies=[]
     holiday_hash.each do |key,value|
       value.each do |a,b|
-          b.each do |c|
-            holiday_supplies.push(b)
+          b.each do |c,d|
+            holiday_supplies.push(c)
           end
       end
     end
