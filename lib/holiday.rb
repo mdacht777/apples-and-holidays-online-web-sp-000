@@ -40,9 +40,7 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
   # code here
   # remember to return the updated hash
     puts holiday_name
-    holiday_hash[":#{season}"].push(":#{holiday_name}")
-    holiday_hash[":#{season}"][":#{holiday_name}"].push(supply_array)
-    puts holiday_hash[":#{season}"]
+    holiday_hash[:fall][:columbus_day].push(supply_array)
 holiday_hash
 end
 
