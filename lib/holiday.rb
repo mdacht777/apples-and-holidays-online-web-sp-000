@@ -83,7 +83,7 @@ def all_holidays_with_bbq(holiday_hash)
     holiday_supplies=[]
     holiday_hash.each do |key,value|
       key.each do |a,b|
-        puts a        
+        puts b        
       end
     end
 puts holiday_supplies
